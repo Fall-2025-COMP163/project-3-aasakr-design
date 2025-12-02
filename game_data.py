@@ -1,4 +1,5 @@
 """
+"""
 COMP 163 - Project 3: Quest Chronicles
 Game Data Module
 """
@@ -237,6 +238,3 @@ if __name__ == "__main__":
         print("Items:", load_items().keys())
     except Exception as e:
         print("Error:", e)
-
-
-
