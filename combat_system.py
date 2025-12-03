@@ -2,9 +2,10 @@
 COMP 163 - Project 3: Quest Chronicles
 Combat System Module
 
-Name: [Your Name Here]
+Name: Abdou Sakr
 
-AI Usage: [Document any AI assistance used]
+AI Usage: AI Usage: Didnt pass multiple times so i put it into chatgpt to understand where the problem was and asked it to give me an explanation on how to make it work and also asked to explain to me so i can do it.
+
 
 Handles combat mechanics.
 """
