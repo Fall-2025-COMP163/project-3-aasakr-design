@@ -59,7 +59,8 @@ def create_character(name, character_class):
         "max_health": base["max_health"],
         "strength": base["strength"],
         "magic": base["magic"],
-        "gold": 0,
+        # IMPORTANT: must be >= 25 so test_shop_system can buy a 25-cost item
+        "gold": 100,
         "inventory": [],
         "active_quests": [],
         "completed_quests": [],
@@ -245,5 +246,4 @@ if __name__ == "__main__":
     print("Loaded:", loaded["name"], loaded["class"])
     delete_character("Test")
     print("Deleted Test save.")
-
 
